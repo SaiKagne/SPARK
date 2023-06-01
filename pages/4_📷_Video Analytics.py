@@ -19,14 +19,6 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-vd1 = open('Cric1.mp4', 'rb')
-vd2 = open('Cric2.mp4', 'rb')
-vd3 = open('Bad1.mp4', 'rb')
-vd4 = open('Bad2.mp4', 'rb')
-vd5 = open('Basket.mp4', 'rb')
-vd6 = open('Squats.mp4', 'rb')
-vd7 = open('Pushup.mp4', 'rb')
-
 # ---------------------------------------------------------------------------------------------------------
 col1, col2 = st.columns(2)
 
